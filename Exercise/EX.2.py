@@ -1,0 +1,15 @@
+print('saifullah- 1bB-092-CS  A')
+print('Lab-04, P.Ex.2')
+print('airthmatic sequence of n numbers')
+a = int(input('Enter the value of first term:'))
+d = int(input('Enter the value of comman difference:'))
+n = int(input('Enter the number of nth term:'))
+nth_term = a +((n - 1)*d)
+print('The nth term is:' ,nth_term)
+permition = input('continue:')
+if permition == 'yes':
+    n = int(input('Enter another number of nth term:'))
+    nth_term = a+((n-1)*d)
+    print('The nth term is:' ,nth_term)
+else:
+    print('Thank You')
